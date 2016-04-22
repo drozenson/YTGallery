@@ -1,0 +1,16 @@
+{
+  "name":"MGallery",
+  "description":"a browser gallery of all youtube and images on a page",
+  "version":"1.0",
+  "manifest_version":2,
+  
+
+"permissions": ["tabs", "<all_urls>"],
+  
+  "browser_action":{
+	"default_icon": "gallery.png",
+	"default_title":"a browser gallery of all youtube and images on a page",
+	"default_popup":"popup.html"
+  }
+  
+}
